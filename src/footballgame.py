@@ -53,7 +53,7 @@ def setupGame(playingPlayers,pickedPlayingPlayersDict):
     clock = pygame.time.Clock()
 
     # load player data
-    fh = open("../resources/test41", "r")
+    fh = open("../resources/firstframes.csv", "r")
     lines = fh.readlines()
 
     pitch = pygame.image.load("../resources/footballpitch.jpg")
