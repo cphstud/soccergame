@@ -49,9 +49,6 @@ def initPlayers():
 
 
 
-
-    print("done")
-
 players = []
 playersDict = {}
 playingPlayersDict = {}
@@ -70,7 +67,7 @@ clock = pygame.time.Clock()
 print(os.getcwd())
 # load player data
 #fh = open("../resources/twoplayers1ball", "r")
-fh = open("../resources/test2", "r")
+fh = open("../resources/test41", "r")
 lines = fh.readlines()
 
 wood_bg = pygame.image.load("../resources/footballpitch.jpg")
@@ -83,7 +80,7 @@ ball = pygame.transform.scale(ball, (20, 20))
 rect = ball.get_rect()
 c_x = 23
 c_y = 100
-rad = 12
+rad = 8
 # circle=pygame.draw.circle(screen,(234,211,34),(c_x,c_y),rad)
 
 x_speed = 2
@@ -91,18 +88,18 @@ y_speed = 0
 speed = [x_speed, y_speed]
 WHITE = (255, 255, 255)
 AWAY = (155, 155, 55)
-HOME = (23, 200, 210)
+HOME = (223, 20, 110)
 BLACK=(0,0,0)
 counter = 0
 
 while counter < len(lines):
     print(lines[counter])
-
+    if "NaN" in lines[counter]:
+        lines[counter]=re.sub("NaN","0.0",lines[counter])
+        #counter +=1
+        #continue
     ll = [re.findall('([\w.]+)', x) for x in lines[counter].split(';') ]
     kk = [tuple(t) for t in ll]
-    if "NaN" in lines[counter]:
-        counter +=1
-        continue
     points = [(int(1 * (float(el[0]))*width), int(1 * (float(el[1]))*height)) for el in kk]
 
     screen.fill(WHITE)
