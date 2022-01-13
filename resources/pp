@@ -1,0 +1,772 @@
+    <Players>
+      <Player id="P3578" teamId="FIFATMA">
+        <Name>Player 11</Name>
+        <ShirtNumber>11</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Goalkeeper</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>0</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.02</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.5</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3568" teamId="FIFATMA">
+        <Name>Player 1</Name>
+        <ShirtNumber>1</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Back</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.9</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3569" teamId="FIFATMA">
+        <Name>Player 2</Name>
+        <ShirtNumber>2</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Center Back (4)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.65</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3570" teamId="FIFATMA">
+        <Name>Player 3</Name>
+        <ShirtNumber>3</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Center Back (4)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.35</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3571" teamId="FIFATMA">
+        <Name>Player 4</Name>
+        <ShirtNumber>4</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Back</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.1</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3572" teamId="FIFATMA">
+        <Name>Player 5</Name>
+        <ShirtNumber>5</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Attacking Right Midfielder (4,5)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.29</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.9</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3573" teamId="FIFATMA">
+        <Name>Player 6</Name>
+        <ShirtNumber>6</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Defensive Right Center Midfielder (5)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.21</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.7</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3574" teamId="FIFATMA">
+        <Name>Player 7</Name>
+        <ShirtNumber>7</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Attacking Center Midfielder</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.29</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.5</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3575" teamId="FIFATMA">
+        <Name>Player 8</Name>
+        <ShirtNumber>8</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Defensive Left Center Midfielder (5)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.21</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.3</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3576" teamId="FIFATMA">
+        <Name>Player 9</Name>
+        <ShirtNumber>9</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Attacking Left Midfielder (4,5)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.29</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.1</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3577" teamId="FIFATMA">
+        <Name>Player 10</Name>
+        <ShirtNumber>10</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Center Forward</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>3</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.39</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.5</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3579" teamId="FIFATMA">
+        <Name>Player 12</Name>
+        <ShirtNumber>12</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Center Back (4)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.65</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3580" teamId="FIFATMA">
+        <Name>Player 13</Name>
+        <ShirtNumber>13</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Defensive Right Center Midfielder (5)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.21</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.7</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3581" teamId="FIFATMA">
+        <Name>Player 14</Name>
+        <ShirtNumber>14</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Attacking Left Midfielder (4,5)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.29</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.1</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3582" teamId="FIFATMA">
+        <Name>Player 15</Name>
+        <ShirtNumber>15</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Back</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.1</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3583" teamId="FIFATMA">
+        <Name>Player 16</Name>
+        <ShirtNumber>16</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Attacking Center Midfielder</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.29</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.5</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3584" teamId="FIFATMA">
+        <Name>Player 17</Name>
+        <ShirtNumber>17</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Back</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.9</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3595" teamId="FIFATMB">
+        <Name>Player 28</Name>
+        <ShirtNumber>28</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Goalkeeper</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>0</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.02</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.5</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3585" teamId="FIFATMB">
+        <Name>Player 18</Name>
+        <ShirtNumber>18</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Back</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.9</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3586" teamId="FIFATMB">
+        <Name>Player 19</Name>
+        <ShirtNumber>19</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Center Back (4)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.65</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3587" teamId="FIFATMB">
+        <Name>Player 20</Name>
+        <ShirtNumber>20</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Center Back (4)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.35</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3588" teamId="FIFATMB">
+        <Name>Player 21</Name>
+        <ShirtNumber>21</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Back</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.1</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3589" teamId="FIFATMB">
+        <Name>Player 22</Name>
+        <ShirtNumber>22</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Midfielder (4,5)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.25</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.9</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3590" teamId="FIFATMB">
+        <Name>Player 23</Name>
+        <ShirtNumber>23</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Center Midfielder (4)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.25</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.65</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3591" teamId="FIFATMB">
+        <Name>Player 24</Name>
+        <ShirtNumber>24</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Center Midfielder (4)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.25</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.35</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3592" teamId="FIFATMB">
+        <Name>Player 25</Name>
+        <ShirtNumber>25</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Midfielder (4,5)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.25</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.1</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3593" teamId="FIFATMB">
+        <Name>Player 26</Name>
+        <ShirtNumber>26</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Forward (2)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>3</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.39</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.65</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3594" teamId="FIFATMB">
+        <Name>Player 27</Name>
+        <ShirtNumber>27</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Forward (2)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>3</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.39</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.35</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3596" teamId="FIFATMB">
+        <Name>Player 29</Name>
+        <ShirtNumber>29</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Back</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.9</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3597" teamId="FIFATMB">
+        <Name>Player 30</Name>
+        <ShirtNumber>30</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Center Midfielder (4)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.25</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.65</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3696" teamId="FIFATMB">
+        <Name>Player 31</Name>
+        <ShirtNumber>31</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Midfielder (4,5)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>2</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.25</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.1</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3697" teamId="FIFATMB">
+        <Name>Player 32</Name>
+        <ShirtNumber>32</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Forward (2)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>3</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.39</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.65</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3698" teamId="FIFATMB">
+        <Name>Player 33</Name>
+        <ShirtNumber>33</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Right Center Back (4)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.65</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3699" teamId="FIFATMB">
+        <Name>Player 34</Name>
+        <ShirtNumber>34</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Forward (2)</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>3</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.39</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.35</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+      <Player id="P3700" teamId="FIFATMB">
+        <Name>Player 35</Name>
+        <ShirtNumber>35</ShirtNumber>
+        <ProviderPlayerParameters>
+          <ProviderParameter>
+            <Name>position_type</Name>
+            <Value>Left Back</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_index</Name>
+            <Value>1</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_x</Name>
+            <Value>0.11</Value>
+          </ProviderParameter>
+          <ProviderParameter>
+            <Name>position_y</Name>
+            <Value>0.1</Value>
+          </ProviderParameter>
+        </ProviderPlayerParameters>
+      </Player>
+    </Players>
