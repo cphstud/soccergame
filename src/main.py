@@ -10,9 +10,9 @@ def initPlayers():
     itemlist = xmldoc.getElementsByTagName('Player')
     tmpList = xmldoc.getElementsByTagName('PlayerChannels')
     idlist=tmpList[0].getElementsByTagName('PlayerChannel')
-    tmppickedPLayers=xmldoc.getElementsByTagName('DataFormatSpecifications')
-    rootpickedPlayers=tmppickedPLayers[0].getElementsByTagName('DataFormatSpecification')
-    pickedPlayers=rootpickedPlayers[0].getElementsByTagName('PlayerChannelRef')
+    tmppickedPLayers = xmldoc.getElementsByTagName('DataFormatSpecifications')
+    pickedPlayersRoot = tmppickedPLayers[0].getElementsByTagName('DataFormatSpecification')[0]
+    pickedPlayers = pickedPlayersRoot.getElementsByTagName('PlayerChannelRef')
     player = {}
     for p in itemlist:
         sid = p.getElementsByTagName('ShirtNumber')[0].firstChild.nodeValue
@@ -23,6 +23,7 @@ def initPlayers():
         player = {'sid': sid, 'pid': pid, 'tid': tid, 'name': name, 'role': role}
         players.append(player)
         playersDict[pid]=player
+
     for p in idlist:
         chid=p.getAttribute('id')
         temppid=p.getAttribute('playerId')
@@ -30,15 +31,33 @@ def initPlayers():
         print(d)
         if temppid in playersDict.keys():
             playersDict[temppid]['chid']=chid
+            pickedPlayingPlayersDict[chid]=playersDict[temppid]
             print("S ",playersDict[temppid])
 
     for p in pickedPlayers:
+        if "_y" in p.getAttribute('playerChannelId'):
+            tmpchid=p.getAttribute('playerChannelId')
+            playingPlayers.append(p.getAttribute('playerChannelId'))
+
+
+
+    for p in playersDict.keys():
         pass
+        #if playersDict[p]['chid'] in pickedPlayers:
+
+
+
+
+
+
     print("done")
 
 players = []
 playersDict = {}
 playingPlayersDict = {}
+playingPlayers = []
+pickedPlayingPlayers = []
+pickedPlayingPlayersDict = {}
 initPlayers()
 #sys.exit(0)
 pygame.init()
@@ -105,12 +124,16 @@ while counter < len(lines):
     # screen.blit(tree, (100,100))
     #points=[(0.84219,0.51681), (0.63861,0.19465), (0.50125,0.48725)]
     #[pygame.draw.circle(screen,(234,211,34),point,rad) for point in points]
-    pcounter=0
+    pcounter=-1
     ballPos=points.pop()
     for point in points:
         pcounter+=1
-        print(players[pcounter]['tid'])
-        col=AWAY if players[pcounter]['tid']=="FIFATMA" else HOME
+        tmpchid=playingPlayers[pcounter]
+        print(pickedPlayingPlayersDict[tmpchid]['tid'])
+        tmpTeam=pickedPlayingPlayersDict[tmpchid]['tid']
+        tmpRole=pickedPlayingPlayersDict[tmpchid]['role']
+        col=AWAY if tmpTeam=="FIFATMA" else HOME
+        #if players[pcounter]['chid'] in playingPlayers:
         pygame.draw.circle(screen,col,point,rad)
     pygame.draw.circle(screen, BLACK, ballPos, (rad/2))
     #pygame.draw.circle(screen,(134,111,34),points[1],rad)
