@@ -1,8 +1,6 @@
 import pygame
 import sys
-import os
 import re
-import xml.etree.ElementTree  as et
 from xml.dom import minidom
 
 def initPlayers(playersDict,playingPlayers, pickedPlayingPlayersDict):
@@ -13,7 +11,6 @@ def initPlayers(playersDict,playingPlayers, pickedPlayingPlayersDict):
     tmppickedPLayers = xmldoc.getElementsByTagName('DataFormatSpecifications')
     pickedPlayersRoot = tmppickedPLayers[0].getElementsByTagName('DataFormatSpecification')[0]
     pickedPlayers = pickedPlayersRoot.getElementsByTagName('PlayerChannelRef')
-    player = {}
     for p in itemlist:
         sid = p.getElementsByTagName('ShirtNumber')[0].firstChild.nodeValue
         pid = p.getAttribute('id')
@@ -26,7 +23,6 @@ def initPlayers(playersDict,playingPlayers, pickedPlayingPlayersDict):
     for p in idlist:
         chid=p.getAttribute('id')
         temppid=p.getAttribute('playerId')
-        d={'chid':chid}
         if temppid in playersDict.keys():
             playersDict[temppid]['chid']=chid
             pickedPlayingPlayersDict[chid]=playersDict[temppid]
@@ -36,13 +32,6 @@ def initPlayers(playersDict,playingPlayers, pickedPlayingPlayersDict):
             tmpchid=p.getAttribute('playerChannelId')
             playingPlayers.append(p.getAttribute('playerChannelId'))
 
-
-def main():
-    playersDict = {}
-    playingPlayers = []
-    pickedPlayingPlayersDict = {}
-    initPlayers(playersDict,playingPlayers, pickedPlayingPlayersDict)
-    setupGame(playingPlayers,pickedPlayingPlayersDict)
 
 def setupGame(playingPlayers,pickedPlayingPlayersDict):
     pygame.init()
@@ -112,6 +101,13 @@ def runGame(rad,clock,counter,lines,screen,WHITE,AWAY,HOME,BLACK,width,height,pi
         counter += 1
     pygame.quit()
     sys.exit()
+
+def main():
+    playersDict = {}
+    playingPlayers = []
+    pickedPlayingPlayersDict = {}
+    initPlayers(playersDict,playingPlayers, pickedPlayingPlayersDict)
+    setupGame(playingPlayers,pickedPlayingPlayersDict)
 
 if __name__ == '__main__':
     main()
