@@ -65,9 +65,37 @@ def setupGame(playingPlayers,pickedPlayingPlayersDict):
     counter = 0
     runGame(rad,clock,counter,lines,screen,WHITE,AWAY,HOME,BLACK,width,height,pitch,rect,speed,playingPlayers,pickedPlayingPlayersDict)
 
+def pause(clock,counter):
+    paused=True
+    while paused:
+        print(counter)
+        for event in pygame.event.get():
+            if event.type==pygame.KEYDOWN:
+                if event.key == pygame.K_c:
+                    paused=False
+                elif event.key == pygame.K_q:
+                    pygame.quit()
+        pygame.display.update()
+        clock.tick(4)
+
+
 
 def runGame(rad,clock,counter,lines,screen,WHITE,AWAY,HOME,BLACK,width,height,pitch,rect,speed,playingPlayers,pickedPlayingPlayersDict):
     while counter < len(lines):
+        for event in pygame.event.get():
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_p:
+                    print("K: ",pygame.key.name(event.key))
+                    pause(clock,counter)
+            print("  ")
+            if event.type == pygame.K_p:
+                pause(clock,counter)
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                pygame.quit()
+                sys.exit()
         if "NaN" in lines[counter]:
             lines[counter]=re.sub("NaN","0.0",lines[counter])
 
@@ -78,11 +106,6 @@ def runGame(rad,clock,counter,lines,screen,WHITE,AWAY,HOME,BLACK,width,height,pi
         screen.fill(WHITE)
         screen.blit(pitch, (0, 0))
         rect = rect.move(speed)
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
-
         if rect.left < 0 or rect.right > width:
             speed[0] = -1 * speed[0]
 
@@ -97,7 +120,7 @@ def runGame(rad,clock,counter,lines,screen,WHITE,AWAY,HOME,BLACK,width,height,pi
             pygame.draw.circle(screen,col,point,rad)
         pygame.draw.circle(screen, BLACK, ballPos, (rad/2))
         pygame.display.update()
-        clock.tick(40)
+        clock.tick(120)
         counter += 1
     pygame.quit()
     sys.exit()
